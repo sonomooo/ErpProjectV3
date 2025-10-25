@@ -108,4 +108,4 @@ true,false로 화면에 보여지는 정보를 구별?
 검색 url : worksout.co.kr/results?keyword=반바지&openFilter=true&filter=true
 
 
-[ApiResponse.java](src/main/java/ErpProject/ErpProjectV3/common/response/ApiResponse.java)
+[ApiResponse.java](src/main/java/erpproject/worksin/common/response/ApiResponse.java)
