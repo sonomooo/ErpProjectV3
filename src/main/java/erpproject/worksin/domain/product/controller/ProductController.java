@@ -41,7 +41,7 @@ public class ProductController {
     public ResponseEntity<ApiResponse<ProductResponse>> updateProduct(@PathVariable Long productId,
                                                                       @RequestBody ProductRequest productRequest){
 
-        productService.updateProduct();
+      return ApiResponse.success(productService.updateProduct(productId,productRequest));
 
     }
 }
