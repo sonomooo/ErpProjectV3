@@ -1,6 +1,6 @@
 package erpproject.worksin.domain.product.dto.response;
 
-import erpproject.worksin.domain.brand.Brand;
+import erpproject.worksin.domain.brand.entity.Brand;
 import erpproject.worksin.domain.product.entity.Product;
 import erpproject.worksin.domain.product.enums.SizeStatus;
 import lombok.Builder;

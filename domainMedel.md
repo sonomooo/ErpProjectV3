@@ -6,8 +6,13 @@
 
 식별자 (브랜드 Id로 구별) - id
 name : 브랜드 명 
-content : 브랜드 설명
+description : 브랜드 설명
+logoUrl : 로고 이미지
+homepageUrl : 홈페이지 링크
+brandstatus : ACTIVE, INACTIVE
 product_id : 브랜드별 상품 id
+
+
 
 
 ### 행위
@@ -17,6 +22,10 @@ product_id : 브랜드별 상품 id
 ### 규칙
 - 브랜드별로 설명을 가진다
 - 상품없이 브랜드만 생성이 가능하다.
+
+## BrandStatus
+
+ACTIVE, INACTIVE 로 나뉜다. 기본 설정은 ACTIVE로 설정
 
 ## 상품 (Product)
 

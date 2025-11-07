@@ -1,6 +1,6 @@
 package erpproject.worksin.domain.product.dto.request;
 
-import erpproject.worksin.domain.brand.Brand;
+import erpproject.worksin.domain.brand.entity.Brand;
 import erpproject.worksin.domain.product.enums.SizeStatus;
 
 public record ProductRequest(String name,
